@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+// Variables and Mixins
+@import "app/variables";
+@import "app/mixins";
+
+// Bootstrap
+@import "app/includes/bootstrap";
+@import "app/includes/bootstrap-custom";
+@import "~slick-carousel/slick/slick.css";
+@import "app/includes/slick-custom";
+
+// Common
+@import "app/includes/common";
+@import "app/includes/typography";
+@import "app/includes/icon-fonts";
+
+// Components
+@import "app/components/section-plan";
+@import "app/components/section";
+@import "app/components/table";
+@import "app/components/table-status";
+@import "app/components/bottom-navigation";
+@import "app/components/share-modal";
+@import "app/components/table-management";
+@import "app/components/shape";
+@import "app/components/line";
+@import "app/components/add-guest";
+@import "app/components/menu-type";
+@import "app/components/order-selection";
+@import "app/components/bill";
+@import "app/components/general-note";
+@import "app/components/product-note";
+@import "app/components/product-search";
+@import "app/components/modifier";
+@import "app/components/delete-bill";
+@import "app/components/login";
+@import "app/components/search";

@@ -1,0 +1,30 @@
+/* Section Plan */
+
+.button-wrap {
+  position: relative;
+  z-index: 100;
+
+  .btn-group .btn {
+    font-size: .875rem;
+    box-shadow: none;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 80px;
+
+    + .btn {
+      border-left: 1px solid $white;
+      margin-left: 0;
+    }
+
+    @include hover-focus-active {
+      + .btn {
+        border-left: 1px solid $white;
+      }
+    }
+  }
+
+  .btn-add {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

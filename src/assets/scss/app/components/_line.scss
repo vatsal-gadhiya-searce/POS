@@ -1,0 +1,32 @@
+/* Line */
+
+.line {
+  position: absolute;
+  user-select: none;
+}
+
+.line-inner {
+  position: absolute;
+  background-color: $line-bg;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line-drag {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: $primary;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  cursor: ew-resize;
+
+  &.left {
+    left: -8px;
+  }
+
+  &.right {
+    right: -8px;
+  }
+}

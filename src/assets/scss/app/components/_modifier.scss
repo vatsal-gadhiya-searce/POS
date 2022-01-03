@@ -1,0 +1,32 @@
+/* Modifier */
+
+.modifier-wrap {
+  padding-top: 30px;
+  max-width: 540px;
+}
+
+.modifier-actions {
+  margin-bottom: 5px;
+
+  .btn-md {
+    width: 40px;
+    height: 40px;
+
+    + .btn-md {
+      margin-left: 10px;
+    }
+  }
+
+  .btn-lg {
+    font-size: 18px;
+    height: 60px;
+  }
+}
+
+.modifier-list-wrap {
+  margin-top: 15px;
+}
+
+.modifier-list {
+  margin: 15px -5px 0;
+}

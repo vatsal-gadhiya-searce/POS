@@ -1,0 +1,129 @@
+/* Common */
+
+html {
+  -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font: #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $base-color;
+  background-color: $body-bg;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+form, input, textarea, select {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  outline: none;
+
+  @include hover-focus-active {
+    text-decoration: none;
+  }
+}
+
+a, button {
+  @include hover-focus-active {
+    outline: none;
+  }
+}
+
+.app-container {
+  font-size: 12px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  background: $layout-bg;
+  overflow: auto;
+  position: relative;
+}
+
+.render-layout {
+  overflow: hidden;
+}
+
+.loader-wrap {
+  background-color: rgba($white, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background-loader {
+  border: 8px solid #dcdcdc;
+  border-radius: 50%;
+  border-top-color: $primary;
+  width: 60px;
+  height: 60px;
+  animation: spin 1.2s linear infinite;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// Utilities
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+// Switch
+.switch-label {
+  margin-bottom: 0;
+
+  > div {
+    vertical-align: middle;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+}

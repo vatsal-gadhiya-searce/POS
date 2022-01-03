@@ -1,0 +1,81 @@
+/* New Order */
+
+.guests {
+  padding-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include hmar(-5);
+  margin-top: 6px;
+}
+
+.guest-wrap {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+  @include hpad(5);
+}
+
+.guest {
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgba($black, .1);
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+
+  &.selected {
+    &::before,
+    &::after {
+      position: absolute;
+    }
+
+    &::before {
+      content: '';
+      background-color: $primary;
+      right: -28px;
+      bottom: -28px;
+      width: 56px;
+      height: 56px;
+      transform: rotate(-45deg);
+    }
+
+    &::after {
+      content: '\e916';
+      font-family: icomoon !important;
+      font-size: 16px;
+      line-height: 26px;
+      color: $white;
+      text-align: center;
+      width: 24px;
+      height: 26px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+}
+
+.table-label {
+  width: 30px;
+  height: 30px;
+  background-color: $primary;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: $white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: -2px;
+}

@@ -1,0 +1,48 @@
+/* Shape */
+
+.shape {
+  position: absolute;
+  color: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  //box-shadow: $table-shadow;
+  background: $shape-bg;
+  user-select: none;
+}
+
+.shape-edit {
+  position: absolute;
+  color: $primary;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.shape-drag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 141.42%;
+    height: 141.42%;
+    left: calc(25% * 1.4142);
+    top: calc(25% * 1.4142);
+    transform: rotate(-45deg);
+    cursor: nwse-resize;
+  }
+}
+
+.shape-center {
+  span {
+    font-size: 22px;
+  }
+}

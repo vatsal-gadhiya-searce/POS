@@ -1,0 +1,61 @@
+/* Product Note */
+
+.product-note {
+  padding-top: 30px;
+  max-width: 540px;
+}
+
+.product-note-actions {
+  margin-bottom: 20px;
+
+  .btn-md {
+    width: 40px;
+    height: 40px;
+
+    + .btn-md {
+      margin-left: 10px;
+    }
+  }
+
+  .btn-lg {
+    font-size: 18px;
+    height: 60px;
+  }
+}
+
+.product-note-quantity {
+  label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .btn {
+    height: 60px;
+  }
+}
+
+.product-note-input {
+  position: relative;
+
+  textarea {
+    font-size: 14px;
+    padding-right: 30px;
+    min-height: 80px;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: $body-bg;
+    text-align: center;
+  }
+}
+
+.allergies-list {
+  margin: 20px -5px 0;
+}

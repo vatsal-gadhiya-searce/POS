@@ -1,0 +1,395 @@
+/* Bill */
+
+.bill-wrap {
+  margin: 30px 0 10px 10px;
+  background-color: $white;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bill-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: $primary;
+    left: -28px;
+    top: -28px;
+    width: 56px;
+    height: 56px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+
+  span {
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 30px;
+    padding-top: 1px;
+    padding-left: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: $white;
+    z-index: 2;
+  }
+}
+
+.bill-header {
+
+}
+
+.bill-company {
+  height: 120px;
+  padding: 10px;
+}
+
+.bill-company-logo {
+  flex-basis: 35%;
+  max-width: 35%;
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+}
+
+.bill-company-details {
+  font-size: 12px;
+  flex-basis: 65%;
+  max-width: 65%;
+  padding-left: 15px;
+
+  h3 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+}
+
+.bill-table-meta-wrap {
+  background-color: $gray-e;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bill-items {
+  overflow-y: auto;
+}
+
+.bill-item {
+  @include vpad(3);
+  margin: 0 4px 1px;
+
+  .table {
+    td {
+      border-bottom: none;
+    }
+  }
+
+  &.selected {
+    background-color: $primary;
+    border-radius: 4px;
+    color: $white;
+  }
+
+  &:first-child {
+    margin-top: 4px;
+  }
+}
+
+.bill-item-main {
+  font-size: 14px;
+  font-weight: 600;
+
+  td {
+    padding: .125rem .5rem;
+
+    &.bill-quantity {
+      width: 40px;
+      text-align: center;
+    }
+  }
+}
+
+.bill-item-sub {
+  font-size: 12px;
+
+  td {
+    padding: .0625rem .5rem;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.blank {
+  td {
+    font-size: 0;
+    padding: 0;
+  }
+}
+
+.bill-total {
+  @include vpad(7);
+
+  .table {
+    margin-bottom: 0;
+
+    td {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+}
+
+.bill-footer {
+  background-color: $gray-e;
+  padding: 10px;
+
+  .btn {
+    font-size: 14px;
+    font-weight: 600;
+    height: 60px;
+    flex-basis: 33.3334%;
+
+    + .btn {
+      margin-left: 10px;
+    }
+  }
+}
+
+// Calculator
+.calculator {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 435px;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+
+.calc-header {
+  width: 425px;
+  @include hpad(5);
+
+  .form-control {
+    font-size: 24px;
+    height: 45px;
+
+    &[disabled] {
+      background-color: $white;
+      user-select: none;
+    }
+  }
+
+  .input-group-append {
+  }
+
+  .input-group-text {
+    background-color: $white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    color: $primary;
+    cursor: default;
+    user-select: none;
+  }
+}
+
+.calc-value {
+  min-width: 100px;
+  background-color: $secondary;
+  font-size: 24px;
+  font-weight: 600;
+  color: $white;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 25px;
+  padding: 10px;
+  cursor: default;
+  user-select: none;
+}
+
+.calc-status {
+  font-size: 11px;
+  padding: 5px;
+}
+
+// Payment types
+.payment-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+// Square
+.calc-keys {
+  padding-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calc-col {
+  flex-basis: 85px;
+  max-width: 85px;
+
+  &.main {
+    flex-basis: 255px;
+    max-width: 255px;
+  }
+}
+
+.square-wrap {
+  flex-basis: 85px;
+  max-width: 85px;
+  padding: 5px;
+}
+
+.square {
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgba($black, .1);
+  width: 75px;
+  height: 75px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+
+  &.calc-key {
+    font-size: 32px;
+  }
+
+  &.bigger {
+    font-size: 16px;
+  }
+
+  &.primary {
+    background-color: $primary;
+    color: $white;
+  }
+
+  &.secondary {
+    background-color: $secondary;
+    color: $white;
+  }
+
+  &.selected {
+    &::before,
+    &::after {
+      position: absolute;
+    }
+
+    &::before {
+      content: '';
+      background-color: $primary;
+      right: -28px;
+      bottom: -28px;
+      width: 56px;
+      height: 56px;
+      transform: rotate(-45deg);
+    }
+
+    &::after {
+      content: '\e916';
+      font-family: icomoon !important;
+      font-size: 16px;
+      line-height: 26px;
+      color: $white;
+      text-align: center;
+      width: 24px;
+      height: 26px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+
+  .calc-col {
+    flex-basis: 110px;
+    max-width: 110px;
+
+    &.main {
+      flex-basis: 330px;
+      max-width: 330px;
+    }
+  }
+
+  .square-wrap {
+    flex-basis: 110px;
+    max-width: 110px;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+
+    &.calc-key {
+      font-size: 36px;
+    }
+
+    &.bigger {
+      font-size: 18px;
+    }
+  }
+
+  // Calculator
+  .calculator {
+    max-width: 560px;
+  }
+
+  .calc-header {
+    width: 550px;
+  }
+
+  .calc-status {
+    font-size: 12px;
+  }
+
+  .bill-footer {
+    .btn {
+      max-width: 33.3334%;
+    }
+  }
+
+}
+
+
+@include media-breakpoint-up(xl) {
+
+  .bill-company-logo {
+    flex-basis: 100px;
+    max-width: 125px;
+
+    img {
+      width: 125px;
+    }
+  }
+
+  .bill-company-details {
+    flex-basis: 90%;
+    max-width: none;
+  }
+
+}

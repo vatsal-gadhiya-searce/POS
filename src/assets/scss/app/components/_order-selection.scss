@@ -1,0 +1,734 @@
+/* Order Selection */
+
+// Order panel
+.order-form-wrap {
+  margin: 30px 0 10px 10px;
+  background-color: $white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.order-header {
+
+}
+
+.order-header-top {
+  background-color: $secondary;
+  padding: 10px;
+
+  .badge {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 15px;
+  }
+
+  .btn {
+    font-size: 1rem;
+    border: none;
+    height: 30px;
+    width: 30px;
+
+    + .btn {
+      margin-left: 10px;
+    }
+
+    &.light {
+      background-color: lighten($secondary, 5%);
+      padding: 0;
+      border-radius: 50%;
+      text-align: center;
+
+      @include hover-focus-active {
+        background-color: lighten($secondary, 5%);
+      }
+    }
+  }
+
+  .btn-secondary {
+    @include hover-focus-active {
+      background-color: $secondary;
+    }
+  }
+
+}
+
+.order-meta {
+  font-size: .75rem;
+  color: $white;
+  padding-top: 10px;
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.order-header-btm {
+  background-color: lighten($secondary, 5%);
+  font-size: .75rem;
+  line-height: 20px;
+  color: $white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.order-list {
+
+}
+
+.order-footer {
+  background-color: $gray-e;
+  padding: 10px;
+
+  .btn {
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+
+    + .btn {
+      margin-left: 10px;
+    }
+
+    &.btn-hold {
+      flex-basis: 40%;
+      max-width: 40%;
+    }
+
+    &.btn-send {
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+  }
+}
+
+.order-due {
+  background-color: $secondary;
+  padding: 10px;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: $white;
+}
+
+.order-list {
+   overflow-y: auto;
+}
+
+.order-item-main {
+  font-size: 14px;
+  font-weight: 600;
+
+  &.selected {
+    td {
+      background-color: $gray-f5;
+    }
+  }
+
+  td {
+    padding: .6125rem .5rem;
+
+    &.order-quantity {
+      width: 40px;
+      text-align: center;
+    }
+
+    &.flag {
+      width: 34px;
+      padding-right: 0;
+      padding-left: 10px;
+    }
+
+    .icon-link {
+      font-size: 24px;
+      line-height: 21px;
+      color: $primary;
+      display: block;
+    }
+
+    .icon-pin {
+      width: 24px;
+      height: 24px;
+      display: block;
+      font-size: 16px;
+      line-height: 1.5;
+      border-radius: 50%;
+      text-align: center;
+
+      &.hold {
+        background-color: $body-bg;
+        color: $white;
+
+        &.active {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  .badge {
+    background-color: $primary;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: center;
+    height: 24px;
+    padding: 4px 10px;
+    border-radius: 15px;
+  }
+}
+
+.order-item-type {
+  width: 75px;
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.order-item-price {
+  width: 55px;
+  text-align: right;
+  padding-left: 0 !important;
+}
+
+.order-item-sub {
+  font-size: 12px;
+
+  &.selected {
+    td {
+      background-color: $gray-f5;
+    }
+  }
+
+  td {
+    padding: .375rem .5rem;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .badge {
+    background-color: $primary;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    text-align: center;
+    height: 18px;
+    padding: 2px 10px;
+    border-radius: 15px;
+  }
+
+  .order-quantity {
+    text-align: center;
+  }
+}
+
+.order-list-header,
+.order-round-header {
+  background-color: lighten($secondary, 5%);
+  font-size: .75rem;
+  line-height: 20px;
+  color: $white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.order-list-header-icon {
+  flex-basis: 24px;
+  max-width: 24px;
+  text-align: center;
+
+  span {
+    font-size: 16px;
+    display: block;
+  }
+}
+
+.order-rounds {
+  text-align: right;
+
+  .btn {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+
+    + .btn {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+// Main menu
+.menu-categories {
+  justify-content: center;
+}
+
+.menu-category {
+  font-size: 14px;
+  font-weight: 600;
+  color: $secondary;
+  cursor: pointer;
+
+  @include hover-focus-active {
+    color: $secondary !important;
+  }
+
+  &.active {
+    color: $primary !important;
+  }
+}
+
+// Sub menu
+.menu-categories,
+.menu-subcategories {
+  justify-content: center;
+  max-width: 660px;
+  margin: .25rem auto .5rem;
+  padding-right: 20px;
+
+  .slick-arrow {
+    transform: translateY(-50%) scale(.75);
+    margin-top: -10px;
+  }
+
+  .slick-dots {
+    text-align: center;
+    display: flex !important;
+    list-style-type: none;
+    justify-content: center;
+
+    li {
+      height: 20px;
+    }
+
+    button {
+      font-size: 0;
+      line-height: 0;
+      width: 20px;
+      height: 20px;
+      padding: 6px;
+      border: none;
+      display: block;
+      text-align: center;
+      background-color: transparent;
+
+      &::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background-color: $secondary;
+        border-radius: 50%;
+        display: block;
+      }
+    }
+
+    .slick-active {
+      button::before {
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+.menu-categories {
+  .slick-arrow {
+    margin-top: 0;
+  }
+}
+
+.menu-subcategory {
+  background-color: $secondary;
+  font-size: 14px;
+  font-weight: 600;
+  color: $white;
+  text-align: center;
+  min-width: 120px;
+  width: auto !important;
+  height: 30px;
+  border-radius: 15px !important;
+  @include vpad(4);
+  @include hmar(10);
+
+  @include hover-focus-active {
+    background-color: darken($secondary, 5%);
+    color: $white;
+  }
+
+  &.active {
+    background-color: $primary;
+  }
+}
+
+// Menu and its items
+.menu-items {
+  margin: 0 auto;
+  display: block;
+  max-width: 660px;
+  padding-right: 20px;
+
+  .slick-track {
+    margin-left: 0;
+  }
+
+  .slick-slide > div {
+    display: flex;
+  }
+}
+
+.menu-item-wrap {
+  padding: 5px;
+}
+
+.menu-item {
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgba($black, .1);
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: $black-21;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.modifier {
+    background-color: $secondary;
+    color: $white;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+  }
+
+  &::after {
+    content: '';
+    background-color: $secondary;
+    width: 28px;
+    height: 28px;
+    top: -14px;
+    left: -14px;
+    transform: rotate(45deg);
+  }
+
+  &.selected {
+    &::before {
+      content: '';
+    }
+
+    &::before {
+      background-color: $primary;
+      right: -28px;
+      bottom: -28px;
+      width: 56px;
+      height: 56px;
+      transform: rotate(-45deg);
+    }
+
+    &::after {
+      background-color: $primary;
+    }
+  }
+}
+
+.menu-item-count {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  right: 0;
+  bottom: 0;
+  font-size: 13px;
+  color: $white;
+  padding: 6px 1px 2px 5px;
+}
+
+.seat-selection-wrap {
+  @include hmar(-7);
+}
+
+.course-selection-wrap {
+  @include hmar(-7);
+}
+
+.message-wrap {
+  text-align: center;
+}
+
+.message-overlay {
+  background-color: $secondary;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message-icon {
+  background-color: $dark-bg;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 4px;
+  margin: 0 auto 40px;
+
+  span {
+    font-size: 24px;
+    line-height: 3;
+    color: $white;
+  }
+}
+
+.message-user {
+  background-color: $dark-bg;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 40px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.message-label {
+  font-size: 24px;
+  font-weight: 300;
+  color: $white;
+}
+
+.message-btn {
+  min-width: 150px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+
+  &.btn-secondary {
+    background-color: $dark-bg;
+  }
+
+  & + & {
+    margin-left: 20px;
+  }
+}
+
+.item-price-modal {
+  .form-control {
+    height: 45px;
+  }
+
+  .btn-group {
+    @include hpad(5);
+
+    .btn {
+      font-size: 14px;
+      line-height: 1.5;
+      height: 45px;
+      border: none;
+
+      @include hover-focus-active {
+        box-shadow: none;
+      }
+    }
+
+    .btn-light {
+      background-color: $white;
+    }
+  }
+}
+
+.item-price-calculator {
+  justify-content: center;
+
+  .square-wrap {
+    flex-basis: 110px;
+    max-width: 110px;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.item-price-field {
+  @include hpad(5);
+
+  .form-control {
+    background-color: $white;
+    font-size: 24px;
+    color: $primary;
+    text-align: right;
+  }
+}
+
+.item-price-btw {
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 3px;
+
+  span {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+}
+
+.item-price-actions {
+  padding-top: 5px;
+
+  .btn {
+    position: relative;
+    overflow: hidden;
+    border: none;
+
+    &.selected {
+      &::before,
+      &::after {
+        position: absolute;
+      }
+
+      &::before {
+        content: '';
+        background-color: $primary;
+        right: -28px;
+        bottom: -28px;
+        width: 56px;
+        height: 56px;
+        transform: rotate(-45deg);
+      }
+
+      &::after {
+        content: '\e916';
+        font-family: icomoon !important;
+        font-size: 16px;
+        line-height: 26px;
+        color: $white;
+        text-align: center;
+        width: 24px;
+        height: 26px;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
+    + .btn {
+      margin-top: 10px;
+    }
+  }
+
+  &.bottom {
+    padding-bottom: 5px;
+
+    .btn + .btn {
+      margin-top: 20px;
+    }
+  }
+}
+
+.numeric-field {
+  max-width: 180px;
+
+  .btn {
+    width: 60px;
+
+    span {
+      font-size: 24px;
+      line-height: 46px;
+      color: $white;
+    }
+  }
+
+  .form-control {
+    background-color: transparent;
+    font-size: 36px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    -moz-appearance:textfield;
+    @include hpad(10);
+
+    @include hover-focus-active {
+      box-shadow: none;
+    }
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+
+  .order-footer {
+    .btn {
+      &.btn-hold {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+      }
+      &.btn-send {
+        flex-basis: 66.67%;
+        max-width: 66.67%;
+      }
+    }
+  }
+
+}
+
+
+@include media-breakpoint-up(xl) {
+
+  // Sub menu
+  .menu-categories,
+  .menu-subcategories {
+    max-width: 780px;
+  }
+
+  .menu-items {
+    max-width: 780px;
+  }
+
+}
+
+
+@include media-breakpoint-up(xxl) {
+
+  // Sub menu
+  .menu-categories,
+  .menu-subcategories {
+    max-width: 1080px;
+  }
+
+  .menu-items {
+    max-width: 1080px;
+  }
+
+}

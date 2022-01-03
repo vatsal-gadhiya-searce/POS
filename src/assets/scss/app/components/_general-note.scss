@@ -1,0 +1,60 @@
+/* General Note */
+
+.general-note {
+  padding-top: 30px;
+  max-width: 540px;
+}
+
+.general-note-actions {
+  margin-bottom: 20px;
+
+  .btn-md {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn-lg {
+    font-size: 18px;
+    height: 60px;
+  }
+}
+
+.general-note-input {
+  position: relative;
+
+  textarea {
+    font-size: 14px;
+    padding-right: 30px;
+    min-height: 80px;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: $body-bg;
+    text-align: center;
+  }
+}
+
+.general-note-item {
+  background-color: $gray-f5;
+  border-bottom: 1px solid $gray-e;
+  padding: 7px 15px;
+  height: 40px;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+
+    span {
+      margin-right: 10px;
+    }
+  }
+
+}

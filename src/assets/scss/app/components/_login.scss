@@ -1,0 +1,98 @@
+/* Login */
+
+// login left
+.login-left {
+
+}
+
+.login-logo-box {
+  background-color: $white;
+  width: 320px;
+  border-radius: 2px;
+  min-height: 530px;
+}
+
+.logo-img {
+  position: relative;
+  max-width: 80%;
+
+  img {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+  }
+}
+
+.login-left-actions {
+  padding: 10px;
+
+  .btn {
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+
+    + .btn {
+      margin-left: 10px;
+    }
+  }
+
+  .check-out {
+    max-width: 90px;
+  }
+
+}
+
+// login right
+.login-right {
+  max-width: 400px;
+  margin-left: 3rem;
+
+  .calculator {
+    min-height: 530px;
+    overflow: hidden;
+  }
+
+  .calc-keys {
+    margin-bottom: -5px;
+  }
+}
+
+.pass-input {
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    background-color: $white;
+    width: 60px;
+    height: 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+
+    &:disabled,
+    &[readonly] {
+      background-color: $white;
+    }
+  }
+
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+
+  // login right
+  .login-right {
+    margin-left: 5rem;
+  }
+
+  .pass-input {
+    .form-control {
+      font-size: 1.5rem;
+    }
+  }
+
+}

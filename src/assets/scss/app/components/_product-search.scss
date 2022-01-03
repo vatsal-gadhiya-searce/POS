@@ -1,0 +1,64 @@
+/* Product search */
+
+.product-search {
+  padding-top: 30px;
+  max-width: 540px;
+
+  .product-search-btn {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .btn-light {
+    background-color: $white;
+  }
+
+  .form-control {
+    font-size: 14px;
+    font-weight: 600;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 0;
+    caret-color: $primary;
+
+    @include hover-focus-active {
+      box-shadow: none;
+    }
+
+    &:not(:placeholder-shown) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .input-group-append {
+    .btn {
+      border: none;
+    }
+  }
+
+  .input-group-text {
+    background-color: $white;
+  }
+}
+
+.product-results {
+  margin-top: 25px;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .menu-items {
+    @include hmar(-5);
+    padding-right: 0;
+  }
+}

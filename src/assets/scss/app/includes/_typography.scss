@@ -1,0 +1,24 @@
+/* Typography */
+
+.modal-subhead {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.rounded-heading {
+  background-color: $primary;
+  height: 30px;
+  padding: 5px 20px;
+  min-width: 120px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: $white;
+  border-radius: 15px;
+  display: inline-block;
+}

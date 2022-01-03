@@ -1,0 +1,76 @@
+/* Bottom Navigation */
+
+.btm-nav {
+  @include vpad(0);
+  height: 60px;
+  overflow: hidden;
+
+  .nav {
+    height: 60px;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+
+    .nav-link {
+      display: flex;
+      flex: 1 1 auto;
+      flex-direction: column;
+      font-size: .875rem;
+      color: $white;
+      text-align: center;
+      padding-bottom: .25rem;
+
+      &.with-icon {
+        align-items: center;
+      }
+
+      span {
+        display: block;
+        flex: 1 1 auto;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: .25rem;
+
+        &.icon-rounded {
+          background-color: $white;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+          text-align: center;
+          margin-top: -2px;
+          color: $secondary;
+          padding-top: 0;
+        }
+      }
+
+      &.active {
+        span.icon-rounded {
+          background-color: $primary;
+          color: $white;
+        }
+      }
+
+      @include hover-focus-active {
+        background-color: darken($secondary, 5%);
+        color: $white;
+      }
+    }
+  }
+}
+
+.table-btm-nav {
+  .nav-item {
+    .nav-link {
+      span {
+        font-size: 1.25rem;
+        padding-top: .125rem;
+        padding-left: .5rem;
+      }
+    }
+  }
+}

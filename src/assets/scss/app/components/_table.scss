@@ -1,0 +1,186 @@
+/* Table */
+
+.tbl {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: $table-shadow;
+  background: $table-bgr;
+  user-select: none;
+
+  .layout > & {
+    cursor: pointer;
+  }
+
+  .table-top {
+    background: $table-top-bg;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    &.alt {
+      background-color: transparent;
+    }
+
+    .table-section1 {
+      flex: 1;
+      overflow: hidden;
+    }
+    .table-section2 {
+      flex: 1;
+    }
+  }
+
+  .table-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+
+    .table-section3 {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .table-section4 {
+      flex: 1;
+    }
+  }
+
+  @each $status, $color in $table-status {
+    &.table-#{$status} {
+      background-color: $color;
+
+      @if($status == 'billed') {
+        .table-top {
+          background-color: $secondary;
+        }
+        .table-bottom {
+          color: $secondary;
+        }
+      } @else {
+        .table-top {
+          background-color: $table-dark-overlay;
+        }
+      }
+    }
+  }
+
+  &.selected {
+    overflow: hidden;
+
+    &::before,
+    &::after {
+      position: absolute;
+    }
+
+    &::before {
+      content: '';
+      background-color: $primary;
+      right: -28px;
+      bottom: -28px;
+      width: 56px;
+      height: 56px;
+      transform: rotate(-45deg);
+    }
+
+    &::after {
+      content: '\e916';
+      font-family: icomoon !important;
+      font-size: 16px;
+      line-height: 26px;
+      color: $white;
+      text-align: center;
+      width: 24px;
+      height: 26px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  &.disabled {
+    background-color: transparent;
+
+    .table-top {
+      background-color: rgba($table-top-bg, .3);
+    }
+
+    .table-bottom {
+      visibility: hidden;
+    }
+  }
+}
+
+.table-edit {
+  position: absolute;
+  color: $primary;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 101;
+}
+
+.table-drag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 141.42%;
+    height: 141.42%;
+    left: calc(25% * 1.4142);
+    top: calc(25% * 1.4142);
+    transform: rotate(-45deg);
+    cursor: nwse-resize;
+  }
+}
+
+.table-groups {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 101;
+
+  + .layout {
+    margin-left: 120px;
+  }
+}
+
+.table-groups-inner {
+  width: 100%;
+  max-width: 100px;
+
+  .btn {
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 100%;
+    @include text-truncate;
+  }
+}
+
+.table-selection {
+  background-color: rgba($black, .1);
+  border: 5px solid $primary;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border-radius: 20px;
+  z-index: 0;
+}

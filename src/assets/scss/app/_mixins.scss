@@ -1,0 +1,62 @@
+/* Mixins */
+
+// padding mixins
+@mixin hpad($gutter) {
+  padding-left: $gutter + px;
+  padding-right: $gutter + px;
+}
+
+@mixin vpad($pad) {
+  padding-top: $pad + px;
+  padding-bottom: $pad + px;
+}
+
+
+// margin mixins
+@mixin hmar($mar) {
+  margin-left: $mar + px;
+  margin-right: $mar + px;
+}
+
+@mixin vmar($mar) {
+  margin-top: $mar + px;
+  margin-bottom: $mar + px;
+}
+
+// Placeholder
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+}
+
+// Centered container
+@mixin centered($width) {
+  max-width: $width + px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Function
+$dark-text-default: #000 !default;
+$light-text-default: #fff !default;
+
+@function color-contrast($color, $dark: $dark-text-default, $light: $light-text-default) {
+  @if $color == null {
+    @return null;
+  }
+  @else {
+    $yiq: (red($color) * 299 + green($color) * 587 + blue($color) * 114) / 1000;
+    @return if($yiq >= 128, $dark, $light);
+  }
+}

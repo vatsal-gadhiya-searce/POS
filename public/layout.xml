@@ -1,0 +1,705 @@
+<ArrayOfFloor xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="http://schemas.datacontract.org/2004/07/TMK.ViewEntities.Layout">
+    <Floor>
+        <Description>1</Description>
+        <DisplayOrder>1</DisplayOrder>
+        <Id>15</Id>
+        <LineElements>[]</LineElements>
+        <PrinterName i:nil="true"/>
+        <Tables>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>50</Height>
+                <Id>3197</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>1034</PositionLeft>
+                <PositionTop>57</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>11</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>120</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3198</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>657</PositionLeft>
+                <PositionTop>36</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>10</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3199</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>586</PositionLeft>
+                <PositionTop>36</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>9</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3200</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>515</PositionLeft>
+                <PositionTop>36</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>8</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3201</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>682</PositionLeft>
+                <PositionTop>334</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>19</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3202</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>610</PositionLeft>
+                <PositionTop>331</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>18</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3203</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>448</PositionLeft>
+                <PositionTop>286</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>17</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>87</Height>
+                <Id>3204</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>313</PositionLeft>
+                <PositionTop>427</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>10000</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>106</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3205</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>683</PositionLeft>
+                <PositionTop>231</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>15</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3206</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>608</PositionLeft>
+                <PositionTop>229</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>14</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3207</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>445</PositionLeft>
+                <PositionTop>107</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>13</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3208</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>true</Lock>
+                <PositionLeft>252</PositionLeft>
+                <PositionTop>180</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>12</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>153</Height>
+                <Id>3209</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>288</PositionLeft>
+                <PositionTop>541</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>24</TableShortDescription>
+                <TemporaryName></TemporaryName>
+                <Width>280</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3210</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>true</Lock>
+                <PositionLeft>703</PositionLeft>
+                <PositionTop>537</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>23</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3211</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>621</PositionLeft>
+                <PositionTop>537</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>22</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3212</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>538</PositionLeft>
+                <PositionTop>538</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>21</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3213</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>328</PositionLeft>
+                <PositionTop>278</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>20</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>65</Height>
+                <Id>3214</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>754</PositionLeft>
+                <PositionTop>39</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>1ABC</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>65</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>96</Height>
+                <Id>3216</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>878</PositionLeft>
+                <PositionTop>36</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>2</Shape>
+                <TableShortDescription>102</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>96</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>65</Height>
+                <Id>3217</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>825</PositionLeft>
+                <PositionTop>363</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>101</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>65</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>82</Height>
+                <Id>3218</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>789</PositionLeft>
+                <PositionTop>187</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>100</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>126</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>65</Height>
+                <Id>3219</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>986</PositionLeft>
+                <PositionTop>408</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>104</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>65</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>65</Height>
+                <Id>3220</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>987</PositionLeft>
+                <PositionTop>490</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>103</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>65</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>82</Height>
+                <Id>3221</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>251</PositionLeft>
+                <PositionTop>327</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>1234</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>96</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>76</Height>
+                <Id>3222</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>true</Lock>
+                <PositionLeft>521</PositionLeft>
+                <PositionTop>169</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>1515</TableShortDescription>
+                <TemporaryName></TemporaryName>
+                <Width>76</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3223</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>107</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3224</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>105</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3225</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>106</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3226</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>108</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3227</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>110</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3228</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>109</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3229</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>111</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3230</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>true</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>115</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3231</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>125</PositionLeft>
+                <PositionTop>368</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>2</Shape>
+                <TableShortDescription>115A</TableShortDescription>
+                <TemporaryName>desserts</TemporaryName>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3234</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>17|B</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>72</Height>
+                <Id>3238</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>15</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>201</PositionLeft>
+                <PositionTop>100</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>L1</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>119</Width>
+            </Table>
+        </Tables>
+    </Floor>
+    <Floor>
+        <Description>2</Description>
+        <DisplayOrder>2</DisplayOrder>
+        <Id>16</Id>
+        <LineElements>[]</LineElements>
+        <PrinterName i:nil="true"/>
+        <Tables>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>175</Height>
+                <Id>3190</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>934</PositionLeft>
+                <PositionTop>197</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>1</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>108</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3191</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>683</PositionLeft>
+                <PositionTop>263</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>7</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3192</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>678</PositionLeft>
+                <PositionTop>88</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>6</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3193</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>548</PositionLeft>
+                <PositionTop>265</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>5</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3194</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>541</PositionLeft>
+                <PositionTop>80</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>4</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3195</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>362</PositionLeft>
+                <PositionTop>277</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>3</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>74</Height>
+                <Id>3196</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>16</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>351</PositionLeft>
+                <PositionTop>78</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>2</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>74</Width>
+            </Table>
+        </Tables>
+    </Floor>
+    <Floor>
+        <Description>3</Description>
+        <DisplayOrder>3</DisplayOrder>
+        <Id>17</Id>
+        <LineElements>[]</LineElements>
+        <PrinterName i:nil="true"/>
+        <Tables>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>158</Height>
+                <Id>3232</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>17</IdFloor>
+                <Lock>true</Lock>
+                <PositionLeft>444</PositionLeft>
+                <PositionTop>286</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>T667</TableShortDescription>
+                <TemporaryName></TemporaryName>
+                <Width>150</Width>
+            </Table>
+            <Table>
+                <BlockTime i:nil="true"/>
+                <Height>155</Height>
+                <Id>3233</Id>
+                <IdBillPrinter i:nil="true"/>
+                <IdFloor>17</IdFloor>
+                <Lock>false</Lock>
+                <PositionLeft>593</PositionLeft>
+                <PositionTop>286</PositionTop>
+                <Reserved>false</Reserved>
+                <Shape>1</Shape>
+                <TableShortDescription>4889</TableShortDescription>
+                <TemporaryName i:nil="true"/>
+                <Width>146</Width>
+            </Table>
+        </Tables>
+    </Floor>
+</ArrayOfFloor>
